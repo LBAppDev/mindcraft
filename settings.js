@@ -1,7 +1,7 @@
 const settings = {
     "minecraft_version": "1.21.1", // supports up to 1.21.1
-    "host": "127.0.0.1", // or "localhost", "your.ip.address.here"
-    "port": 55916,
+    "host": "TokyoServer.aternos.me", // or "localhost", "your.ip.address.here"
+    "port": 43234,
     "auth": "offline", // or "microsoft"
 
     // the mindserver manages all agents and hosts the UI
@@ -9,11 +9,11 @@ const settings = {
     
     "base_profile": "survival", // survival, creative, or god_mode
     "profiles": [
-        "./andy.json",
+        //"./andy.json",
         // "./profiles/gpt.json",
         // "./profiles/claude.json",
-        // "./profiles/gemini.json",
-        // "./profiles/llama.json",
+        "./profiles/gemini.json",
+        "./profiles/llama.json",
         // "./profiles/qwen.json",
         // "./profiles/grok.json",
         // "./profiles/mistral.json",
